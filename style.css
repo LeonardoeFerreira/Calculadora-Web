@@ -1,0 +1,65 @@
+/*
+*
+@author Leonardo dos Santos Ferreira 
+@version 0.1
+*
+*/
+
+/*=========================== layout ===========================*/
+
+html, body {
+    background: #ffffff;
+    overflow: auto; /*Mostra uma barra de rolagem caso necessario*/
+}
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+     padding: 10px 35px;
+     text-transform: uppercase;
+     transition: background 0.5s, color 0.5s ;
+
+}
+
+#divresultado{
+    font-size:20px ;
+    
+}
+
+/*========================== Tipografia ===========================*/
+body{
+    overflow: hidden;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -0.05px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -0.05px;
+    margin-bottom: 50px;
+}
+
+
+/*========================== Medias Queries===========================*/
+/* xs < 768 */
+
+@media screen and (max-width: 767px){
+
+    h1, h3{
+        font-size: 20px;
+        text-align: center;
+    }    
+    #divbutton{
+        text-align: center;
+    }
+
+}
